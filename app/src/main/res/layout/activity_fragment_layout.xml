@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/Sunday"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="11dp"
+        android:text="Sunday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        tools:text="Sunday " />
+    <Button
+        android:id="@+id/Monday"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Sunday"
+        android:text="Monday"
+        android:elevation="11dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        />
+    <Button
+        android:id="@+id/Tuesday"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Monday"
+        android:text="Tuesday"
+        android:elevation="11dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        />
+    <Button
+        android:id="@+id/Wednesday"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tuesday"
+        android:text="Wednesday"
+        android:elevation="11dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        />
+    <Button
+        android:id="@+id/Thursday"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Wednesday"
+        android:text="Thursday"
+        android:elevation="11dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/Friday"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Thursday"
+        android:text="Friday"
+        android:elevation="11dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        />
+    <Button
+        android:id="@+id/Saturday"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Friday"
+        android:text="Saturday"
+        android:elevation="11dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        />
+
+
+</RelativeLayout>

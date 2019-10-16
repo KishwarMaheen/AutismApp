@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "791916309749",
+    "firebase_url": "https://autismapp-bd014.firebaseio.com",
+    "project_id": "autismapp-bd014",
+    "storage_bucket": "autismapp-bd014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791916309749:android:ecc1c415a4df176e",
+        "android_client_info": {
+          "package_name": "com.topupit.asef.autismapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791916309749-igav70ko9g1f7i1pc0ku875udh58kd92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topupit.asef.autismapp",
+            "certificate_hash": "c1c7d0de10efaec79bfa0332668f370e35af1596"
+          }
+        },
+        {
+          "client_id": "791916309749-bhmemehhuvbk25j2eashofieuq7oghhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClyUlnXoBIDd2nZo0mLvBgJTfU023UaQ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791916309749-bhmemehhuvbk25j2eashofieuq7oghhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

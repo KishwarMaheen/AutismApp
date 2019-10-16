@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Fiveam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="5 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="5 a.m- Fazr prayer"
+
+        />
+    <TextView
+        android:id="@+id/sixam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="6 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="6 a.m- ***" />
+
+    <TextView
+        android:id="@+id/sevenam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/sixam"
+        android:layout_centerHorizontal="true"
+        android:text="7 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="7 a.m- ***" />
+
+    <TextView
+        android:id="@+id/eightam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/sevenam"
+        android:layout_centerHorizontal="true"
+        android:text="8 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="8 a.m- ***" />
+
+    <TextView
+        android:id="@+id/nineam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/eightam"
+        android:layout_centerHorizontal="true"
+        android:text="9 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="9 a.m- ***" />
+
+    <TextView
+        android:id="@+id/tenam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/nineam"
+        android:layout_centerHorizontal="true"
+        android:text="10 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="10 a.m- ***" />
+
+    <TextView
+        android:id="@+id/elevenam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/tenam"
+        android:layout_centerHorizontal="true"
+        android:text="11 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="11 a.m- ***" />
+
+    <TextView
+        android:id="@+id/twelvepm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/elevenam"
+        android:layout_centerHorizontal="true"
+        android:text="12 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="12 p.m- ***" />
+    <TextView
+        android:id="@+id/onepm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/twelvepm"
+        android:layout_centerHorizontal="true"
+        android:text="1 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="1 p.m- ***" />
+    <TextView
+        android:id="@+id/twopm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/onepm"
+        android:layout_centerHorizontal="true"
+        android:text="12 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="2 p.m- ***" />
+    <TextView
+        android:id="@+id/threepm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/twopm"
+        android:layout_centerHorizontal="true"
+        android:text="3 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="3 p.m- ***" />
+
+    <TextView
+        android:id="@+id/fourpm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/threepm"
+        android:layout_centerHorizontal="true"
+        android:text="4 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="4 p.m- ***" />
+    <TextView
+        android:id="@+id/fivepm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/fourpm"
+        android:layout_centerHorizontal="true"
+        android:text="5 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="5 p.m- ***" />
+
+    <TextView
+        android:id="@+id/sixpm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/fivepm"
+        android:layout_centerHorizontal="true"
+        android:text="6 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="6 p.m- ***" />
+
+    <TextView
+        android:id="@+id/sevenpm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/sixpm"
+        android:layout_centerHorizontal="true"
+        android:text="7 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="7 p.m- ***" />
+
+    <TextView
+        android:id="@+id/eightpm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/sevenpm"
+        android:layout_centerHorizontal="true"
+        android:text="8 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="8 p.m- ***" />
+
+    <TextView
+        android:id="@+id/ninepm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/eightpm"
+        android:layout_centerHorizontal="true"
+        android:text="9 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="9 p.m- ***" />
+
+    <TextView
+        android:id="@+id/tenpm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/ninepm"
+        android:layout_centerHorizontal="true"
+        android:text="10 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="10 p.m- ***" />
+
+    <TextView
+        android:id="@+id/elevenpm"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/tenpm"
+        android:layout_centerHorizontal="true"
+        android:text="11 p.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="11 p.m- ***" />
+
+    <TextView
+        android:id="@+id/twelveam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/elevenpm"
+        android:layout_centerHorizontal="true"
+        android:text="12 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="12 a.m- ***" />
+
+    <TextView
+        android:id="@+id/oneam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/twelveam"
+        android:layout_centerHorizontal="true"
+        android:text="1 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="1 a.m- ***" />
+
+    <TextView
+        android:id="@+id/twoam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/oneam"
+        android:layout_centerHorizontal="true"
+        android:text="2 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="2 a.m- ***" />
+
+    <TextView
+        android:id="@+id/threeam"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/twoam"
+        android:layout_centerHorizontal="true"
+        android:text="3 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="3 a.m- ***" />
+
+    <TextView
+        android:id="@+id/fouram"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/threeam"
+        android:layout_centerHorizontal="true"
+        android:text="4 a.m "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="4 a.m- ***" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+
+</RelativeLayout>

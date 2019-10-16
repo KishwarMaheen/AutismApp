@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textNeed"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/clothesImage"
+        android:text="আজকে সারাদিন কি কি করতে চাও??"
+
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/clothesImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/clothes"
+        android:src="@drawable/clothes" />
+    <EditText
+        android:id="@+id/clothes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="নতুন কাপড় লাগবে?"
+        android:inputType="text"
+        android:layout_below="@+id/textNeed"
+        android:layout_toRightOf="@id/clothesImage"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/batteryImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/battery"
+        android:src="@drawable/battery" />
+    <EditText
+        android:id="@+id/battery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="কয়টা ব্যাটারী লাগবে খেলনার জন্য?"
+        android:inputType="number"
+        android:layout_below="@+id/clothes"
+        android:layout_toRightOf="@id/batteryImage"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/shoes_socksImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/shoes_socks"
+        android:src="@drawable/shoes_socksimage" />
+    <EditText
+        android:id="@+id/shoes_socks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="নতুন জুতা লাগবে পায়ের জন্য সাথে মজা?"
+        android:inputType="text"
+        android:layout_below="@+id/battery"
+        android:layout_toRightOf="@id/shoes_socksImage"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/soapImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/soap"
+        android:src="@drawable/soap_shoes" />
+    <EditText
+        android:id="@+id/soap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সাবান, শ্যাম্পু??"
+        android:inputType="text"
+        android:layout_below="@+id/shoes_socks"
+        android:layout_toRightOf="@+id/soapImage"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/toysImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/toys"
+        android:src="@drawable/toys"
+        />
+
+    <EditText
+        android:id="@+id/toys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/soap"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/toysImage"
+        android:hint="নতুন খেলনা?"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_SaveNeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toys"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:text="Save" />
+</RelativeLayout>
